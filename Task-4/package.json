@@ -1,20 +1,24 @@
 {
-  "name": "web_lab3",
+  "name": "task-4",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx webpack --mode production",
-    "start": "npx webpack --mode development"
+    "prod": "npx webpack --mode production",
+    "dev": "npx webpack --mode development"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lisa & Oleg",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.1",
     "style-loader": "^3.3.2",
     "webpack": "^5.83.1",
-    "webpack-cli": "^5.1.1"
+    "webpack-cli": "^5.1.1",
+    "webpack-plugin": "^1.0.5"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
   }
 }
