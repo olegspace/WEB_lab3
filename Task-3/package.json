@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx webpack --mode production",
-    "start": "npx webpack --mode development"
+    "prod": "npx webpack --mode production",
+    "dev": "npx webpack --mode development"
   },
   "keywords": [],
   "author": "",
