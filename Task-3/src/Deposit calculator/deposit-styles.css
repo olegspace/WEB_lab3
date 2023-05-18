@@ -1,0 +1,37 @@
+.form {
+  margin: 5% 10%;
+  border: 3px hsla(216, 98%, 52%, 0.4) solid;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.4);
+  font-size: 20px;
+}
+
+.title {
+  font-family: Arial, Tahoma, sans-serif;
+  color: #8d0aff;
+  text-align: center;
+  font-size: 4.5em;
+}
+
+a {
+  min-width: 80px;
+  width: 50%;
+}
+
+table {
+  margin: 40px auto 40px;
+  /* font-size: 100%; */
+}
+
+td {
+  padding: 1rem 1rem;
+}
+
+p {
+  margin-top: 20px !important;
+}
+
+input {
+  text-align: center;
+  width: 100%;
+}
